@@ -1,0 +1,49 @@
+.ticket-list {
+    margin-top: 20px;
+}
+
+.ticket {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.ticket-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.ticket-description {
+    margin-top: 10px;
+    color: #666;
+}
+
+.ticket-actions {
+    margin-top: 10px;
+}
+
+.ticket-actions a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.ticket-actions a:hover {
+    text-decoration: underline;
+}
+
+.ticket-actions button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ticket-actions button:hover {
+    background-color: #c82333;
+}
